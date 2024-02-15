@@ -1,0 +1,13 @@
+{
+  "name": "downloads-stream-graph",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "scripts": {
+    "tsc": "tsc"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.3.2"
+  }
+}
