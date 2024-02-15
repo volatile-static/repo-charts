@@ -4,10 +4,14 @@
   "description": "",
   "main": "src/index.ts",
   "scripts": {
-    "tsc": "tsc"
+    "build": "esbuild src/index.ts --bundle --sourcemap --outfile=dist/main.js"
   },
   "license": "ISC",
   "devDependencies": {
-    "typescript": "^5.3.2"
+    "esbuild": "^0.20.0"
+  },
+  "dependencies": {
+    "highcharts": "^11.3.0",
+    "octokit": "^3.1.2"
   }
 }
