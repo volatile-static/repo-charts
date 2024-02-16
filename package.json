@@ -4,7 +4,7 @@
   "description": "",
   "main": "src/index.ts",
   "scripts": {
-    "build": "esbuild src/index.ts --bundle --sourcemap --outfile=dist/main.js"
+    "build": "node esbuild.config.mjs"
   },
   "license": "ISC",
   "devDependencies": {
@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "highcharts": "^11.3.0",
-    "octokit": "^3.1.2"
+    "octokit": "^3.1.2",
+    "preact-render-to-string": "^6.3.1"
   }
 }
